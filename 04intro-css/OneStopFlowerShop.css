@@ -5,11 +5,11 @@ body{
 
 /* Header Stuff */
 header{
-    background-color: #7f9da5;
+    background-color: #5e7f88;
     padding: 2rem 10px;
 }
 header span{
-    color: #f2e0c9;
+    color: #f0e3d3;
     font-size: 1.6rem;
     font-weight: 900;
     text-align: center;
@@ -17,7 +17,7 @@ header span{
 
 /* Navigation Stuff*/
 nav{
-    background-color: #f2e0c9;
+    background-color: #f0e3d3;
 }
 nav ul{
     margin: 0;
@@ -34,11 +34,11 @@ nav a{
     font-weight: 700;
 }
 nav li.active a {
-    background-color: #7f9da5;
-    color: #f2e0c9;
+    background-color: #5e7f88;
+    color: #f0e3d3;
 }
 nav a:hover {
-    color: #7f9da5;
+    color: #5e7f88;
 }
 
 /* Main stuff */
@@ -64,7 +64,7 @@ main p{
 main ol{
     padding: .5rem 30px;
     background-color: #5c7650;
-    color: #f2e0c9;
+    color: #f0e3d3;
 }
 main dl dt{
     color: #5c7650;
@@ -94,28 +94,28 @@ main em{
 }
 main address{
     font-style: normal;
-    background-color: #f2e0c9;
+    background-color: #f0e3d3;
     padding: 1rem;
     border-radius: 10px;
     border: 2px solid #5c7650;
     width: 200px;
 }
 main a{
-    color: #5c7650;
+    color: #5b3c1e;
 }
 main a:hover{
-    color: #7f9da5;
+    color: #5e7f88;
 }
 
 /* Footer Stuff */
 footer{
-    background-color: #7f9da5;
+    background-color: #5e7f88;
     text-align: center;
     padding: 1rem 0;
 }
 footer p{
     margin: 0;
     font-size: 1rem;
-    color: #f2e0c9;
+    color: #f0e3d3;
     letter-spacing: 4px;
 }
