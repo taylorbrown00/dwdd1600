@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Taylor Brown">
+    <meta name="description" content="Find flowers for you for any occasion">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="OneStopFlowerShop.css">
+    <title>One Stop Flower Shop: Shop</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <span>One Stop Flower Shop</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flowers.html">Shop</a></li>
+            <li><a href="team.html">Meet the Team</a></li>
+            <li class="active"><a href="cart.html">Check-Out</a></li>
+        </ul>
+    </nav>
+
+    <!--start the main content-->
+    <main>
+        <h1>Check-Out:</h1>
+        <form method="get" class="form" action="thanks.html">
+
+        <Fieldset>
+        <legend>Tell Us More:</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>How Did You Hear About Us?</label>
+        <label><input type="radio" name="hear" value="media">Social Media</label>
+        <label><input type="radio" name="hear" value="google">Google Search</label>
+        <label><input type="radio" name="hear" value="friend">From a Friend</label>
+        <label><input type="radio" name="hear" value="event">At an Event</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Contact Information:</legend>
+        <label>Phone Number*<input type="tel" name="phone" required placeholder="(801)555-654"></label>
+        <label>Email*<input type="email" name="email" required placeholder="tb@gmail.com"></label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Location For Pick-Up:</legend>
+        <label>Chose a Location:</label>
+        <select name="location">
+        <option value="none">Please Select One</option>
+        <option value="drapper">Drapper Location</option>
+        <option value="slc">Salt Lake City Location</option>
+        <option value="george">St. George Location</option>
+        <option value="set">Event Set Up</option>
+        </select>
+        </fieldset>
+
+        <fieldset>
+        <legend>Make It Personalized:</legend>
+        <label><input type="checkbox" name="ribon" value="chosen">Add Ribon</label>
+        <label><input type="checkbox" name="cards" value="chosen">Business Cards</label>
+        <label><input type="checkbox" name="replace" value="chosen">Replace Any Flowers</label>
+        <label><input type="checkbox" name="color" value="chosen">Replace A Color</label>
+        <label><input type="checkbox" name="name" value="chosen">Add Your Name Label</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Feedback</legend>
+        <label>Your Voice Matters:
+        <textarea name="comments">We would love your feedback on ways we can improve!</textarea>
+        </label>
+        </fieldset>
+
+        <input type="submit" value="Purchase">
+        </form>
+   
+
+    </main>
+
+    <!--start the page footer-->
+    <footer>
+        <p>&copy;2026 &bull; Taylor Brown &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
