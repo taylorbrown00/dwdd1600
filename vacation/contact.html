@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Taylor Brown">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="images/x-icon" href="favicon.ico">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <img src="images/wave2.png" alt="wave icon" width="150" height="75">
+        <span>Taylor's Trips</span>
+        <img src="images/wave2.png" alt="wave icon" width="150" height="75">
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Booking</a></li>
+        </ul>
+    </nav>
+
+    <!--start the main content-->
+    <main>
+        <h1>Book Now:</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Trip Loading</legend>
+                  <label>Chose a Location:</label>
+        <select name="location">
+        <option value="none">Please Select One</option>
+        <option value="drapper">Hawaii</option>
+        <option value="slc">Italy</option>
+        <option value="george">New-York</option>
+        </select>
+<div class="radio-group">
+                <label>Travel Type:</label>
+                <input type="radio" name="type"> Solo
+                <input type="radio" name="type"> Couple
+                <input type="radio" name="type"> Family
+</div>
+
+                <label>First Name*<input type="text" name="fname" required></label>
+            
+                <label>Last Name*<input type="text" name="lname" required></label>
+
+                 
+        <label>Phone Number*<input type="tel" name="phone" required placeholder="(801)555-654"></label>
+        <label>Email*<input type="email" name="email" required placeholder="tb@gmail.com"></label>
+                
+                
+</fieldset>
+  
+
+
+<fieldset>
+    <div class="radio-group">
+            <label>How Did You Hear About Us?</label>
+     <label><input type="checkbox" name="ribon" value="chosen">Social Media</label>
+        <label><input type="checkbox" name="cards" value="chosen">Business Cards</label>
+        <label><input type="checkbox" name="replace" value="chosen">Google Search</label>
+        <label><input type="checkbox" name="color" value="chosen">From a Friend</label>
+        <label><input type="checkbox" name="name" value="chosen">At an Event</label>
+</div>
+        
+        <label>Your Voice Matters:
+        <textarea name="comments">We would love your feedback!</textarea>
+        </label>
+</fieldset>
+<input type="submit" value="Purchase">
+</form>
+
+    </main>
+
+        <!--start the page footer-->
+    <footer>
+        <p>&copy;2026 &bull; Taylor Brown &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
